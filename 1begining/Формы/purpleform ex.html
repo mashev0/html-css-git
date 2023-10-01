@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="stylepurpleform.css">
+</head>
+
+<body>
+
+</body>
+
+</html>
+<main>
+    <h2>Свяжитесь со мной</h2>
+
+    <form action="#" method="get">
+
+        <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="123@gmail.com" required>
+        </div>
+        <div class="field">
+            <label for="tg">Telegram</label>
+            <input type="text" id="tg" name="tg" placeholder="@ivanov" />
+        </div>
+        <div class="field">
+            <label for="theam">Тема</label>
+            <select name="theam" id="theam" required>
+                <option value="1">Приобретение курсов</option>
+                <option value="2">Трудоустройство</option>
+
+            </select>
+        </div>
+        <div class="field">
+            <label for="com">Комментарий</label>
+            <textarea name="com" id="com" cols="50" rows="5"></textarea>
+        </div>
+        <button>Отправить</button>
+    </form>
+</main>

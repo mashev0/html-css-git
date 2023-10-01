@@ -1,4 +1,79 @@
-h1 {
-    color: #d51515;
 
+.link {
+    color: coral;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: rgb(165, 44, 0);
+}
+
+h1, h2 {
+    font-weight: 500;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornflowerblue;
+}
+h1 {
+    margin: 0%;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.Herotext {
+color: #050038;
+}
+
+.Sectiontext {
+    color: rgba(5, 0, 56, 0.6);
+}
+
+header > a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #050038;
+}
+
+ul li:first-child {
+    color: crimson;
+}
+ul li:nth-child(odd) {
+    color: rgb(230, 136, 73);
+}
+
+a::after {
+    content: "!";
+    color: red;
+}
+
+
+*::selection {
+    background-color: rgb(0, 0, 190);
+}
+nav { 
+    padding: 33px 50px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 60px;
+}
+nav ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+   
+}
+
+/*.sectionlist {
+    list-style-type: none;
+    list-style-image: url(./icons8-галочка.svg);
+} */
+
+.sectionlist li::marker {
+    content: none;
+}
+.sectionlist li::before {
+    content: url(./icons8-галочка.svg);
 }
